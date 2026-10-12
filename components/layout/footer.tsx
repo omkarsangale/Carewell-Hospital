@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {HeartPulse, Instagram, Linkedin, ArrowUpRight } from "lucide-react";
+import { HeartPulse, ArrowUpRight } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { site } from "@/data/site";
 import { services } from "@/data/services";
