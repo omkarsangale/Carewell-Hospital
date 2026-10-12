@@ -1,0 +1,62 @@
+// Edit hospital details, homepage copy, images, navigation, and statistics here.
+// Everything is illustrative placeholder content; replace it before a real launch.
+export const site = {
+  name: "CareWell Hospital",
+  tagline: "Caring for you, every step of the way",
+  phone: "+91 98765 43210",
+  phoneHref: "tel:+919876543210",
+  emergency: "108 / +91 98765 00000",
+  emergencyPhone: "+91 98765 00000",
+  emergencyHref: "tel:+919876500000",
+  nationalEmergencyHref: "tel:108",
+  email: "hello@carewellhospital.in",
+  address: "Nashik, Maharashtra, India",
+  hours: { opd: "9:00 AM to 8:00 PM", emergency: "24x7" },
+  url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+  description: "Compassionate care for every generation. Explore our doctors, services, and facilities at CareWell Hospital in Nashik.",
+  hero: {
+    eyebrow: "YOUR HEALTH. OUR HEART.",
+    title: "Expert care.",
+    highlightedTitle: "A human touch.",
+    description: "From everyday check-ups to life's important moments, we're here with expert hands, listening ears, and care that feels like family.",
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1400&q=85",
+    imageAlt: "Healthcare professional standing in a bright clinical setting",
+    imageBadge: "Here for you, always",
+    imageBadgeDetail: "Compassionate care, around the clock",
+  },
+  about: {
+    eyebrow: "A LITTLE ABOUT US",
+    title: "More than a hospital.",
+    highlightedTitle: "A partner in your health.",
+    paragraphs: [
+      "Good healthcare starts with feeling heard. At CareWell Hospital, we bring experienced specialists and modern facilities together with something just as important: kindness.",
+      "Rooted in Nashik, our approach is simple. Take time to understand you, explain your options clearly, and support you at every step of your care.",
+    ],
+    mission: "To make thoughtful, quality healthcare accessible to every family in our community.",
+    vision: "A healthier community where every person feels supported, respected, and cared for.",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Medical team discussing a patient's care",
+  },
+  stats: [
+    { value: 20, suffix: "+", label: "Years of service" },
+    { value: 40, suffix: "+", label: "Expert doctors" },
+    { value: 50, suffix: "k+", label: "Patients treated" },
+    { value: 15, suffix: "+", label: "Awards & recognitions" },
+  ],
+  navigation: [
+    { label: "Home", href: "/" },
+    { label: "About us", href: "/#about" },
+    { label: "Services", href: "/services" },
+    { label: "Our doctors", href: "/doctors" },
+    { label: "Contact", href: "/contact" },
+  ],
+  socialLinks: [
+    { label: "Facebook", icon: "facebook", href: "https://www.facebook.com/" },
+    { label: "Instagram", icon: "instagram", href: "https://www.instagram.com/" },
+    { label: "LinkedIn", icon: "linkedin", href: "https://www.linkedin.com/" },
+  ],
+  // Leave blank to show the designed map placeholder. Paste a Google Maps embed URL to enable a map.
+  mapEmbedUrl: "",
+  mapDirectionsUrl: "https://www.google.com/maps/search/?api=1&query=Nashik%2C+Maharashtra%2C+India",
+  demoNotice: "Demo website · Doctors, reviews, statistics, and imagery are illustrative.",
+};
